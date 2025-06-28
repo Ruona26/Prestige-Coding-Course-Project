@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    margin: 2rem 4rem;
+    box-shadow: 0 20px 15px rgba(0,0,0,0.5);
+    border-radius: 14px;
+}
+.hero {
+    background-color: #f8f5fc;
+    border-radius: 14px;
+}    
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+nav {
+    width: 50%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav a:hover, .active {
+    background-color: #582d9e;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.row h1 {
+    font-size: 3rem;
+    color: #222;
+    
+    padding: 10px 0;
+}
+.row p:first-of-type {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    color: #222;
+}
+.row a {
+    text-decoration: none;
+}
+.hero-img {
+   margin-bottom: -3rem;
+}
+.wave {
+    margin-top: -6rem;
+    margin-bottom: -1rem;
+}
+.courses-section, .events, .support {
+    padding: 3rem 5rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.courses-section h3, .events h3, .support h3{
+    font-size: 30px;
+    margin-bottom: 1.3rem;
+    padding-left: 5rem;
+}
+.card{
+    background-color: #f3effa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.cardm {
+    background-color: #582d9e;
+    padding: 1.5rem;
+    color: #f3effa;
+    border-radius: 10px;
+    width: 230px;
+    cursor: pointer;   
+}
+.cardm p {
+    color: #f3effa !important;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 5px;
+}
+.rangem {
+   -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 999px;
+    background: #9b76d3;
+    width: 100%;
+    outline: none;
+    overflow: hidden; 
+}
+.rangem::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 50px;
+    background: #f3effa;
+    cursor: pointer;
+    height: 6px;
+    width: 16px;
+    box-shadow: -350px 0px 0px 340px #f3effa;   
+}
+
+.range {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 999px;
+    background: #fff;
+    width: 100%;
+    outline: none;
+    overflow: hidden;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 50px;
+    background: #582d9e;
+    cursor: pointer;
+    height: 6px;
+    width: 16px;
+    box-shadow: -350px 0px 0px 340px #582d9e;
+}
+.main-events {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.acard {
+    background-color: #f3effa;
+    margin-bottom: 1rem;
+    border-radius: 13px;
+    padding: 1rem 7rem 1rem 1rem;
+    display: flex;
+    gap: 10px;
+    width: 105%;
+    cursor: pointer;
+}
+.date {
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 8px;
+    text-align: center;
+}
+.date p:first-of-type {
+    color: #582d9e;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;  
+}
+.text p:first-of-type {
+    margin-bottom: 6px;
+}
+.text span {
+    font-size: 14px;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 20px;
+}
+.rcard {
+     background-color: #f3effa;
+     padding: 2.7rem;
+     width: 47%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border-radius: 13px;
+     cursor: pointer;
+}
+.support{
+    margin-top: -4rem;
+}
+.support p{
+    margin-top: -1rem;
+    line-height: 4rem;
+    margin-left: 5rem;
+}
+.support a {
+    text-decoration: none;
+}
+.copyright {
+    background-color: #f3effe;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+}
