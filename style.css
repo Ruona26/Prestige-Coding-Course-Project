@@ -68,6 +68,13 @@ nav a:hover, .active {
     margin-top: -6rem;
     margin-bottom: -1rem;
 }
+.Courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
 .courses-section, .events, .support {
     padding: 3rem 5rem;
     width: 95%;
@@ -95,6 +102,21 @@ nav a:hover, .active {
     width: 230px;
     cursor: pointer;   
 }
+
+
+.card, .cardm {
+    flex: 0 0 250px;
+    max-width: 250px;
+    word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+    .card, .cardm {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
 .cardm p {
     color: #f3effa !important;
 }
@@ -188,6 +210,17 @@ nav a:hover, .active {
     width: 50%;
     gap: 20px;
 }
+
+@media (max-width: 768) {
+    .resources {
+        justify-content: center;
+    }
+    .rcard {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+} 
+
 .rcard {
      background-color: #f3effa;
      padding: 2.7rem;
